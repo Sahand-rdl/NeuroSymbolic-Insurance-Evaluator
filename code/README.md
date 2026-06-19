@@ -20,7 +20,7 @@ The pipeline consists of the following core modules:
 
 ## 2. Engineering Choices: What Failed vs. What Succeeded
 
-Building this architecture wasn't a straight line. We spent over 9-10 hours on intense experimentation, scaffolding, trial and error, and prompt engineering. Here is the chronological evolution of the pipeline:
+Building this architecture wasn't a straight line. We spent over 12 hours on intense experimentation, scaffolding, trial and error, and prompt engineering. Here is the chronological evolution of the pipeline:
 
 ### 1. The Haiku Summarizer (Failed)
 **Attempt:** We initially attempted extreme token optimization and injection handling by using a cheap, smaller model to summarize the conversational claims into a single sentence before passing them to the primary VLM. 
