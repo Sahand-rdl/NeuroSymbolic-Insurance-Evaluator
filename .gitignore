@@ -1,1 +1,10 @@
 .DS_Store
+.env
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
