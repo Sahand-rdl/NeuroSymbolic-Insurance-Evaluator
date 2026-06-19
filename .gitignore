@@ -8,4 +8,4 @@ venv/
 env/
 .pytest_cache/
 .ipynb_checkpoints/
-.zip
+code.zip
