@@ -1,12 +1,13 @@
-# HackerRank Orchestrate
+# Neuro-Symbolic Insurance Evaluator
 
-Starter repository for the **HackerRank Orchestrate** 24-hour hackathon.
+A highly optimized, multi-modal pipeline for verifying damage claims via visual evidence. Built for the **HackerRank Orchestrate** 24-hour hackathon (June 2026).
 
-Build a system that verifies visual evidence for damage claims across three object types: **cars**, **laptops**, and **packages**.
+This system evaluates claims across **cars**, **laptops**, and **packages** by processing chat transcripts, user history, and image sets. It employs a **Neuro-Symbolic architecture**: using a Vision-Language Model (Claude 3.5 Sonnet) for visual reasoning, followed by a deterministic Python layer (`engine.py`) to enforce strict business logic and safety guarantees against "Critic Bias."
 
-Your system will receive claim conversations, one or more submitted images, user claim history, and minimum evidence requirements. It must decide whether the submitted images support the claim, contradict it, or do not provide enough information.
+* **Architecture:** Unified multi-modal VLM call → Deterministic Python Guardrails.
+* **Performance:** High concurrency via `asyncio.Semaphore`, zero-cost dev iterations via SQLite `cache.py`.
 
-Read [`problem_statement.md`](./problem_statement.md) for the full task spec, input/output schema, and allowed values.
+Read [`problem_statement.md`](./problem_statement.md) for the full task spec, or check out `code/README.md` for my implementation details.
 
 ---
 
