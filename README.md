@@ -2,7 +2,7 @@
 
 A highly optimized, multi-modal pipeline for verifying damage claims via visual evidence. Built for the **HackerRank Orchestrate** 24-hour hackathon (June 2026).
 
-This system evaluates claims across **cars**, **laptops**, and **packages** by processing chat transcripts, user history, and image sets. It employs a **Neuro-Symbolic architecture**: using a Vision-Language Model (Claude 3.5 Sonnet) for visual reasoning, followed by a deterministic Python layer (`engine.py`) to enforce strict business logic and safety guarantees against "Critic Bias."
+This system evaluates claims across **cars**, **laptops**, and **packages** by processing chat transcripts, user history, and image sets. It employs a **Neuro-Symbolic architecture**: using a Vision-Language Model (Claude 4.6 Sonnet) for visual reasoning, followed by a deterministic Python layer (`engine.py`) to enforce strict business logic and safety guarantees against "Critic Bias."
 
 * **Architecture:** Unified multi-modal VLM call → Deterministic Python Guardrails.
 * **Performance:** High concurrency via `asyncio.Semaphore`, zero-cost dev iterations via SQLite `cache.py`.
