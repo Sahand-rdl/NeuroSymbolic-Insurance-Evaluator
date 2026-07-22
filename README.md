@@ -2,6 +2,8 @@
 
 A highly optimized, multi-modal pipeline for verifying damage claims via visual evidence. Built for the **HackerRank Orchestrate** 24-hour hackathon (June 2026).
 
+Out of 15,295 registered participants, 1,773 successfully shipped a runnable AI agent and passed the final AI Judge interview. I finished #71 globally (Top 4%), placing 2nd in Germany and 6th in Europe! 🇩🇪🇪🇺
+
 ![til](./31850462_gif.gif)
 
 This system evaluates claims across **cars**, **laptops**, and **packages** by processing chat transcripts, user history, and image sets. It employs a **Neuro-Symbolic architecture**: using a Vision-Language Model (Claude 4.6 Sonnet) for visual reasoning, followed by a deterministic Python layer (`engine.py`) to enforce strict business logic and safety guarantees against "Critic Bias."
