@@ -2,7 +2,10 @@
 
 A highly optimized, multi-modal pipeline for verifying damage claims via visual evidence. Built for the **HackerRank Orchestrate** 24-hour hackathon (June 2026).
 
-Out of 15,295 registered participants, 1,773 successfully shipped a runnable AI agent and passed the final AI Judge interview. I finished #71 globally (Top 4%), placing 2nd in Germany and 6th in Europe! 🇩🇪🇪🇺
+## 🥈 Hackathon Award
+> **Silver Medal Winner** — Ranked **#71 globally (Top 4%)** out of 15,295 registered participants (awarded to the top 5%), placing 2nd in Germany and 6th in Europe! 🇩🇪🇪🇺
+> 
+> Out of all participants, 1,773 successfully shipped a runnable AI agent and passed the final AI Judge interview.
 
 ![til](./31850462_gif.gif)
 
